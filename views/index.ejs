@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/main.css" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header -->
+  <section id="title" class="gradient-background">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">  
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="/images/headerPic.png" class="d-block mx-lg-auto img-fluid" alt="food plate" width="700" height="700" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="fw-bold fs-1">Recipe Finder</h1>
+          </div>    
+        </div>
+      </div>
+  </section>
+
+
+  <!--Cuisine Buttons-->
+  <div class="diet-buttons-container text-center">
+    <h2 class="button-heading">Select a desired cuisine</h2>
+    <div class="button-group d-flex justify-content-center flex-wrap gap-2">
+      <form action="/submit" method="POST">
+
+        <input type="radio" name="cuisine" value="African" id="cuisine-african" class="btn-check">
+        <label for="cuisine-african" class="btn btn-primary rounded-pill px-3">African</label>
+
+        <input type="radio" name="cuisine" value="Asian" id="cuisine-asian" class="btn-check">
+        <label for="cuisine-asian" class="btn btn-primary rounded-pill px-3">Asian</label>
+
+        <input type="radio" name="cuisine" value="American" id="cuisine-american" class="btn-check">
+        <label for="cuisine-american" class="btn btn-primary rounded-pill px-3">American</label>
+
+        <input type="radio" name="cuisine" value="British" id="cuisine-british" class="btn-check">
+        <label for="cuisine-british" class="btn btn-primary rounded-pill px-3">British</label>
+
+        <input type="radio" name="cuisine" value="Cajun" id="cuisine-cajun" class="btn-check">
+        <label for="cuisine-cajun" class="btn btn-primary rounded-pill px-3">Cajun</label>
+
+        <input type="radio" name="cuisine" value="Caribbean" id="cuisine-caribbean" class="btn-check">
+        <label for="cuisine-caribbean" class="btn btn-primary rounded-pill px-3">Caribbean</label>
+
+        <input type="radio" name="cuisine" value="Chinese" id="cuisine-chinese" class="btn-check">
+        <label for="cuisine-chinese" class="btn btn-primary rounded-pill px-3">Chinese</label>
+
+        <input type="radio" name="cuisine" value="European" id="cuisine-european" class="btn-check">
+        <label for="cuisine-european" class="btn btn-primary rounded-pill px-3">European</label>
+
+        <input type="radio" name="cuisine" value="French" id="cuisine-french" class="btn-check">
+        <label for="cuisine-french" class="btn btn-primary rounded-pill px-3">French</label>
+
+        <input type="radio" name="cuisine" value="German" id="cuisine-german" class="btn-check">
+        <label for="cuisine-german" class="btn btn-primary rounded-pill px-3">German</label>
+
+        <input type="radio" name="cuisine" value="Greek" id="cuisine-greek" class="btn-check">
+        <label for="cuisine-greek" class="btn btn-primary rounded-pill px-3">Greek</label>
+
+        <input type="radio" name="cuisine" value="Indian" id="cuisine-indian" class="btn-check">
+        <label for="cuisine-indian" class="btn btn-primary rounded-pill px-3">Indian</label>
+
+        <input type="radio" name="cuisine" value="Irish" id="cuisine-irish" class="btn-check">
+        <label for="cuisine-irish" class="btn btn-primary rounded-pill px-3">Irish</label>
+
+        <input type="radio" name="cuisine" value="Italian" id="cuisine-italian" class="btn-check">
+        <label for="cuisine-italian" class="btn btn-primary rounded-pill px-3">Italian</label>
+
+        <input type="radio" name="cuisine" value="Japanese" id="cuisine-japanese" class="btn-check">
+        <label for="cuisine-japanese" class="btn btn-primary rounded-pill px-3">Japanese</label>
+
+        <input type="radio" name="cuisine" value="Korean" id="cuisine-korean" class="btn-check">
+        <label for="cuisine-korean" class="btn btn-primary rounded-pill px-3">Korean</label>
+
+        <input type="radio" name="cuisine" value="Latin American" id="cuisine-latinAmerican" class="btn-check">
+        <label for="cuisine-latinAmerican" class="btn btn-primary rounded-pill px-3">Latin American</label>
+
+        <input type="radio" name="cuisine" value="Mediterranean" id="cuisine-mediterranean" class="btn-check">
+        <label for="cuisine-mediterranean" class="btn btn-primary rounded-pill px-3">Mediterranean</label>
+
+        <input type="radio" name="cuisine" value="Mexican" id="cuisine-mexican" class="btn-check">
+        <label for="cuisine-mexican" class="btn btn-primary rounded-pill px-3">Mexican</label>
+
+        <input type="radio" name="cuisine" value="Middle Eastern" id="cuisine-middleEastern" class="btn-check">
+        <label for="cuisine-middleEastern" class="btn btn-primary rounded-pill px-3">Middle Eastern</label>
+
+        <input type="radio" name="cuisine" value="Nordic" id="cuisine-nordic" class="btn-check">
+        <label for="cuisine-nordic" class="btn btn-primary rounded-pill px-3">Nordic</label>
+
+        <input type="radio" name="cuisine" value="Spanish" id="cuisine-spanish" class="btn-check">
+        <label for="cuisine-spanish" class="btn btn-primary rounded-pill px-3">Spanish</label>
+
+        <input type="radio" name="cuisine" value="Thai" id="cuisine-thai" class="btn-check">
+        <label for="cuisine-thai" class="btn btn-primary rounded-pill px-3">Thai</label>
+
+        <input type="radio" name="cuisine" value="Vietnamese" id="cuisine-vietnamese" class="btn-check">
+        <label for="cuisine-vietnamese" class="btn btn-primary rounded-pill px-3">Vietnamese</label>
+
+        
+        <!--Diet Buttons-->
+        <div class="diet-buttons-container text-center">
+          <h2 class="button-heading">Select a suitable diet</h2>
+          <div class="button-group d-flex justify-content-center flex-wrap gap-2">
+
+            <input type="radio" name="diet" value="Gluten-free" id="diet-gluten-free" class="btn-check">
+            <label for="diet-gluten-free" class="btn btn-primary rounded-pill px-3">Gluten-free</label>
+
+            <input type="radio" name="diet" value="Vegan" id="diet-vegan" class="btn-check">
+            <label for="diet-vegan" class="btn btn-primary rounded-pill px-3">Vegan</label>
+
+            <input type="radio" name="diet" value="Vegetarian" id="diet-vegetarian" class="btn-check">
+            <label for="diet-vegetarian" class="btn btn-primary  rounded-pill px-3">Vegetarian</label>
+
+            <input type="radio" name="diet" value="Lacto-vegetarian" id="diet-lacto-vegetarian" class="btn-check">
+            <label for="diet-lacto-vegetarian" class="btn btn-primary rounded-pill px-3">Lacto-vegetarian</label>
+
+            <input type="radio" name="diet" value="Ketogenic" id="diet-ketogenic" class="btn-check">
+            <label for="diet-ketogenic" class="btn btn-primary rounded-pill px-3">Ketogenic</label>
+
+            <input type="radio" name="diet" value="Pescatarian" id="diet-pescatarian" class="btn-check">
+            <label for="diet-pescatarian" class="btn btn-primary rounded-pill px-3">Pescatarian</label>
+            
+          </div>
+        </div>
+
+        <!--Food-type Buttons-->
+        <div class="diet-buttons-container text-center">
+          <h2 class="button-heading">Select a desired meal type</h2>
+          <div class="button-group d-flex justify-content-center flex-wrap gap-2">
+
+            <input type="radio" name="type" value="Main course" id="type-mainCourse" class="btn-check">
+            <label for="type-mainCourse" class="btn btn-primary rounded-pill px-3">Main course</label>
+
+            <input type="radio" name="type" value="Side dish" id="type-sideDish" class="btn-check">
+            <label for="type-sideDish" class="btn btn-primary rounded-pill px-3">Side dish</label>
+
+            <input type="radio" name="type" value="Dessert" id="type-dessert" class="btn-check">
+            <label for="type-dessert" class="btn btn-primary rounded-pill px-3">Dessert</label>
+
+            <input type="radio" name="type" value="Appetizer" id="type-appetizer" class="btn-check">
+            <label for="type-appetizer" class="btn btn-primary rounded-pill px-3">Appetizer</label>
+
+            <input type="radio" name="type" value="Salad" id="type-salad" class="btn-check">
+            <label for="type-salad" class="btn btn-primary rounded-pill px-3">Salad</label>
+
+            <input type="radio" name="type" value="Bread" id="type-bread" class="btn-check">
+            <label for="type-bread" class="btn btn-primary rounded-pill px-3">Bread</label>
+
+            <input type="radio" name="type" value="Breakfast" id="type-breakfast" class="btn-check">
+            <label for="type-breakfast" class="btn btn-primary rounded-pill px-3">Breakfast</label>
+
+            <input type="radio" name="type" value="Soup" id="type-soup" class="btn-check">
+            <label for="type-soup" class="btn btn-primary rounded-pill px-3">Soup</label>
+
+            <input type="radio" name="type" value="Beverage" id="type-beverage" class="btn-check">
+            <label for="type-beverage" class="btn btn-primary rounded-pill px-3">Beverage</label>
+
+            <input type="radio" name="type" value="Sauce" id="type-sauce" class="btn-check">
+            <label for="type-sauce" class="btn btn-primary rounded-pill px-3">Sauce</label>
+
+            <input type="radio" name="type" value="Marinade" id="type-marinade" class="btn-check">
+            <label for="type-marinade" class="btn btn-primary rounded-pill px-3">Marinade</label>
+
+            <input type="radio" name="type" value="Fingerfood" id="type-fingerfood" class="btn-check">
+            <label for="type-fingerfood" class="btn btn-primary rounded-pill px-3">Fingerfood</label>
+
+            <input type="radio" name="type" value="Snack" id="type-snack" class="btn-check">
+            <label for="type-snack" class="btn btn-primary rounded-pill px-3">Snack</label>
+
+            <input type="radio" name="type" value="Drink" id="type-drink" class="btn-check">
+            <label for="type-drink" class="btn btn-primary rounded-pill px-3">Drink</label>
+
+          </div>
+        </div>
+
+
+        <div class="button-group d-flex justify-content-center flex-wrap gap-2">
+            <button type="submit" class="btn-primary btn sumbmitButton">Find Recipies!</button> 
+        </div>
+      
+      </form>
+    </div>
+  </div>
+      
+    </div>
+  </div>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,96 @@
+.gradient-background {
+  background: linear-gradient(300deg, #A5B68D, #E7CCCC, #EDE8DC);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+body{
+  background-color: #EDE8DC;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.container{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.container>div{
+    flex-basis: 100px;
+  }
+
+.button-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-group{
+    display:block;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+.btn{
+    margin-bottom:10px;
+    background-color:#EDE8DC;
+    border-color: #E7CCCC;
+    color:black;
+    border-width: 2px;
+    
+}
+
+.btn:hover {
+  background-color: #E7CCCC !important;
+  border-color: #E7CCCC !important;
+}
+
+.btn-check:checked + label {
+  background-color: #E7CCCC !important;
+  border-color: #E7CCCC !important
+ 
+
+}
+label{
+  color: black !important;
+}
+
+.sumbmitButton{
+  width:200px;
+  height:50px;
+  background-color: #C1CFA1;
+  color:black;
+  border-radius: 35%;
+  border-color: #A5B68D;
+}
+
+.sumbmitButton:hover{
+  background-color: #A5B68D !important;
+  border-color: #A5B68D !important;
+  color:black;
+}
+
+ul{
+  list-style: none;
+  font-weight: bold;
+}
+
+
+
+
