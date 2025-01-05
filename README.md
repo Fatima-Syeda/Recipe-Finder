@@ -17,7 +17,13 @@ A web app that helps users discover recipes by filtering their preferences for c
 
 <h3>Selecting "Go to Recipe" leads to a website with the recipe</h3>
 
-![image](https://github.com/user-attachments/assets/1794346f-95b7-44d7-9005-db95cb82e992)
+![Uploading image.png…]()
+
+
+
+<h3>"Go back to Search" button leads to the home page</h3>
+
+![image](https://github.com/user-attachments/assets/db0d46bf-4413-42b1-b1a6-57f80515834a)
 
 
 
