@@ -19,6 +19,11 @@ A web app that helps users discover recipes by filtering their preferences for c
 
 ![image](https://github.com/user-attachments/assets/473d0abd-04a5-46cf-b29d-66d46c7c6764)
 
+<h3>When no results are found</h3>
+
+![image](https://github.com/user-attachments/assets/057cf4d9-7a40-4a2d-bd94-ff8cfaa5596b)
+
+
 <h2>Technologies Used</h2>
 <ul>
   <li>Node</li>
