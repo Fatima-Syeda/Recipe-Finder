@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/23c09b6e-bfd1-46c4-818c-ab009a95197b)# Recipe-Finder
+# Recipe-Finder
 A web app that helps users discover recipes by filtering their preferences for cuisine, diet, and meal type.
 
 <h2>Images</h2>
@@ -16,6 +16,7 @@ A web app that helps users discover recipes by filtering their preferences for c
 <h3>Selecting "Go to Recipe" leads to a website with the recipe</h3>
 
 ![image](https://github.com/user-attachments/assets/1794346f-95b7-44d7-9005-db95cb82e992)
+![image](https://github.com/user-attachments/assets/23c09b6e-bfd1-46c4-818c-ab009a95197b)
 
 
 
