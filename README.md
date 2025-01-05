@@ -12,18 +12,19 @@ A web app that helps users discover recipes by filtering their preferences for c
 ![image](https://github.com/user-attachments/assets/f8a3cc27-7402-4c4e-8edb-faa4a70e9855)
 ![image](https://github.com/user-attachments/assets/0ea245b7-d978-433f-9395-4d52a95c152c)
 ![image](https://github.com/user-attachments/assets/7e290c75-7490-4579-9bcf-337060b144e3)
-![image](https://github.com/user-attachments/assets/23c09b6e-bfd1-46c4-818c-ab009a95197b)
+![image](https://github.com/user-attachments/assets/db0d46bf-4413-42b1-b1a6-57f80515834a)
 
 
 <h3>Selecting "Go to Recipe" leads to a website with the recipe</h3>
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/473d0abd-04a5-46cf-b29d-66d46c7c6764)
 
 
 
-<h3>"Go back to Search" button leads to the home page</h3>
 
-![image](https://github.com/user-attachments/assets/db0d46bf-4413-42b1-b1a6-57f80515834a)
+
+
+
 
 
 
