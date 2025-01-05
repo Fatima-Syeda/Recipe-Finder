@@ -19,6 +19,15 @@ A web app that helps users discover recipes by filtering their preferences for c
 
 ![image](https://github.com/user-attachments/assets/473d0abd-04a5-46cf-b29d-66d46c7c6764)
 
+<h2>Technologies Used</h2>
+<ul>
+  <li>Node</li>
+  <li>Express</li>
+  <li>Axios</li>
+  <li>Spoonacular Api</li>
+  <li>HTML, CSS, JavaScript</li>
+</ul>
+
 
 
 
