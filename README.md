@@ -25,7 +25,7 @@ A web app that helps users discover recipes by filtering their preferences for c
   <li>Express</li>
   <li>Axios</li>
   <li>Spoonacular Api</li>
-  <li>HTML, CSS, JavaScript</li>
+  <li>HTML/EJS, CSS, JavaScript</li>
 </ul>
 
 
