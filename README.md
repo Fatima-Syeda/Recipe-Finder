@@ -26,11 +26,11 @@ A web app that helps users discover recipes by filtering their preferences for c
 
 <h2>Technologies Used</h2>
 <ul>
-  <li>Node</li>
-  <li>Express</li>
+  <li>Node.js</li>
+  <li>Express.js</li>
   <li>Axios</li>
   <li>Spoonacular Api</li>
-  <li>HTML, EJS, CSS, JavaScript</li>
+  <li>JavaScript, HTML, CSS</li>
 </ul>
 
 
